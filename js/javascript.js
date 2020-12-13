@@ -74,4 +74,15 @@ $(document).ready(function(){
       })
   
     });
+
+    $("#menuContainer").click(function(){
+        $("#list").toggle(1000);
+      });
+
+    $("li a").click(function(){
+        $("#list").hide(1000);
+    })
+
   });
+
+ 

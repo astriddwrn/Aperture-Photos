@@ -1,7 +1,219 @@
-/* *
-{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: inherit;
-} */
+
+@media screen and (max-width: 600px) { 
+    *
+    {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        color: inherit;
+    } 
+
+    body{
+        max-width: 600px !important;
+        min-width: 375px !important;
+       
+        width: 100%;
+    }
+
+    #navbarContainer{
+        max-width: 600px !important;
+        min-width: 200px;
+    }
+
+    #navbarContainer #content{
+        justify-content: none;
+        flex-direction: auto;
+    }
+   
+    #navbarContainer #icon{
+        margin-left: 0px;
+        padding: 0;
+        
+    }
+    #navbarContainer img{
+        margin-left: 50px;
+        
+    }
+
+    #navbarContainer #list{
+        display: none;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 5px;
+        align-self: flex-end;
+
+    }
+
+    #navbarContainer li{
+        font-size: 15px;
+        line-height: 5px;
+        flex-direction: column;
+        display: block;
+        text-align: center;
+        /* width: 100%; */
+        font-weight: 600;
+    }
+
+   
+
+    #navbarContainer #menuContainer{
+        margin: 15px 0px;
+        margin-right: 50px;
+        display: block;
+        height: fit-content;
+    }
+
+    #navbarContainer .menu {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+        
+      }
+      .parent{
+        position: relative;
+        width: 100%;
+        max-width: 600px !important;
+        overflow: hidden;
+        min-width: 200px;
+    }
+
+      .sectionContainer{
+        max-width: 600px !important;
+        width: 100%;
+        height: 700px;
+        opacity: 0.5;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        min-width: 200px;
+    }
+
+    #homeContainer{
+        background-position: left;
+    }
+
+    #homeContent{
+        top: 220px;
+        left: auto;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #homeContent #title{
+        font-size: 40px;
+    }
+
+    #homeContent #slogan{
+        font-size: 20px;
+    }
+
+    #aboutusContainer{
+        background-size:auto 160%;
+        background-position: top;
+        height: 800px;
+    }
+
+    #aboutusContent{
+        top: 200px;
+        width: 100%;
+        left: auto;
+        margin-left: 0px;
+    }
+
+    #aboutusContent #desc{
+        padding: 0 45px;
+    }
+    
+  
+
+    #workContainer{
+        height: 1880px;
+        margin: 0;
+        
+    }
+
+    #workContent{
+        height: fit-content;
+        left: 50%;
+        margin-left: -150px;
+        width: 300px;
+        overflow: hidden;
+    }
+    
+    .flex1{
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+    .flex2{
+        flex: none;
+        height: 520px;
+        margin: 0px;
+    }
+    .flex2 div{
+        height: 412px;
+        margin: 0px;
+        overflow: show;
+    }
+    /* .kiri, .flag, .flag2, .kanan{
+        margin-bottom: 20px;
+        position: auto;
+    } */
+
+    #workContent img{
+        margin-bottom: 20px;
+    }
+
+    .flag{
+        /* height: 270px; */
+        vertical-align: auto;
+        position: auto;
+    }
+    .flag2{
+        height: 0;
+        margin-bottom: 50px;
+    }
+
+    #contactusContainer{
+        height: 750px;
+        background-position: 65%;
+    }
+
+    #nname, #eemail, #pphone{
+        height: 50px;
+        width: 280px;
+    }
+
+    #mmessage{
+        height: 200px;
+        width: 280px;
+    }
+
+    #footer{
+        max-width: 600px !important;
+        overflow: hidden;
+        min-width: 200px;
+    }
+
+    #footer #by{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    #designContent, #createdContent{
+        width: 215px;
+        margin:0;
+        margin-bottom: 10px;
+    }
+
+    #designContent{
+        font-size: 15px;
+
+    }
+    #createdContent img{
+        height: 18px;
+ 
+    }
+} 
