@@ -75,6 +75,17 @@ $(document).ready(function(){
   
     });
 
+    $(window).on('resize', function(){
+        var win = $(this); //this = window
+        if (win.width() >= 601) { 
+            $("#list").show();
+        }
+        else{
+            $("#list").hide();
+        }
+  });
+    
+
     $("#menuContainer").click(function(){
         $("#list").toggle(1000);
       });
